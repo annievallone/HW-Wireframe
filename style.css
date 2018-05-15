@@ -1,0 +1,113 @@
+. /*Your CSS should have styles for each of the following elements:
+   * Body
+     * font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+     * color: '#777'
+     * background: '#777'
+     * width: '960px'
+     * font-size: '18px'
+   * Header, Nav, Section, Aside, and Footer
+     * background: '#ebebeb'
+   * Article
+     * color: '#ebebeb',
+     * background: '#777'
+   * h1 and p
+     * color: '#777',
+     * background: '#ebebeb'
+3. The widths of each section should be:
+   * section: 495px
+
+### Helpful Hints
+
+* For a refresher on working with Git and GitHub, consult the GitHub Supplemental Guide we sent you in class.
+* Don't forget to review these concepts: `float`, `padding`, `margin`, `display`, `overflow`, `clear` and `text-align`.
+* This will be a tough assignment. But 23 weeks from now, you'll look back to this exercise and realize just how much you've grown as a developer. Stay positive!*/
+* {
+    box-sizing: border-box;
+    text-align: center;
+    margin: = 0;
+    align-self: auto;
+}
+
+
+body {
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    color:#777;
+    background: #777;
+    width: 960px;
+    font-size: 18px;
+    margin: auto;
+    align-self: auto;
+    text-align: center;
+}
+
+section {
+    width: 495px;
+    margin: 0;
+    float: left;
+    width: 55%;
+    height: 282px;
+    padding-bottom: 50px;
+    border: black;
+    background-color: #ebebeb;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+aside {
+    float: right;
+    background-color: #ebebeb;
+    width: 40%;
+    padding-bottom: 50px;
+    padding-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 25px;
+    height: 275px;
+}
+
+.bg {
+    background-color: #ebebeb;
+    margin: 10px;
+    height: 50px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+#article {
+    color: #ebebeb;
+    background: #777;
+    height: 40px;
+    height: 175px;
+    width: 95%;
+    position: relative;
+    left: 15px;
+    top: 80px;
+    
+}
+
+.x {
+    color: #777;
+    background: #ebebeb;
+    height: 50px;
+    width: 95%;
+    line-height: 2.5;
+    vertical-align: middle;
+
+}
+
+#a {
+    position: relative;
+    left: 10px;
+    ;
+}
+
+#b {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    ;
+
+}
+
+
+footer{
+clear: both;
+}
